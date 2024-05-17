@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Warner Bros. - Feedback</title>
+    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="navbar-container">
+            <div class="logo-container">
+                <a href="index.html" class="logo">
+                    <img src="images/Warner_Bros._2_Gray.png" alt="Warner Bros. Logo">
+                    
+                </a>
+            </div>
+            <div class="menu-container">
+                <ul class="menu-list">
+                    <li class="menu-list-item"><a href="index.html">Home</a></li>
+                    <li class="menu-list-item"><a href="movies.html">Movies</a></li>
+                    <li class="menu-list-item"><a href="tvshows.html">TV Shows</a></li>
+                    <li class="menu-list-item"><a href="games.html">Games & Apps</a></li>
+                    <li class="menu-list-item"><a href="collections.html">Collections</a></li>
+                    <li class="menu-list-item active"><a href="feedback.html">Feedback</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container">
+        <h1>Feedback</h1>
+        <p>We'd love to hear from you! Please provide your feedback below.</p>
+        
+        <div class="feedback-form-container">
+            <label for="name" class="feedback-form-label">Your Name:</label>
+            <input type="text" id="name" name="name" class="feedback-form-input" required>
+        
+            <label for="email" class="feedback-form-label">Your Email:</label>
+            <input type="email" id="email" name="email" class="feedback-form-input" required>
+        
+            <label for="message" class="feedback-form-label">Your Message:</label>
+            <textarea id="message" name="message" rows="4" class="feedback-form-textarea" required></textarea>
+        
+            <button type="submit" class="feedback-form-button">Submit</button>
+        </div>
+        
+        <!-- Add an empty div for displaying alerts -->
+        <div id="alert-container"></div>
+
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Warner Bros. All rights reserved.</p>
+            <!-- Social Media Links -->
+            <div class="social-icons">
+                <a href="https://www.facebook.com/WarnerBrosEnt" target="_blank" aria-label="Facebook - WarnerBros.com">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://twitter.com/wbpictures" target="_blank" aria-label="Twitter - WarnerBros.com">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://www.instagram.com/warnerbrosentertainment/" target="_blank" aria-label="Instagram - WarnerBros.com">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/company/warner-bros-pictures/" target="_blank" aria-label="LinkedIn - WarnerBros.com">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://www.youtube.com/user/WarnerBrosPictures" target="_blank" aria-label="YouTube - WarnerBros.com">
+                    <i class="fab fa-youtube"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
